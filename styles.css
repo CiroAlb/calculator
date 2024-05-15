@@ -1,0 +1,103 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    background-color: #f0f0f0;
+}
+
+#main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#calculator-container{
+    height: 350px;
+    /**/
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212121;
+    color: #ffffff;
+
+}
+
+#display-acumulado{
+    margin-left: auto;
+    margin-right: 6px;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+}
+
+#input{
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    text-align: right;
+    outline: none;
+}
+
+#botones{
+    display: flex;
+    flex-direction: column;
+    /**/
+    flex: 1;
+    /**/
+    justify-content: space-between;
+    gap: 5px;
+    padding-top: 10px;
+}
+
+.filas{
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+    gap: 5px;
+}
+
+.button{
+    width: 100%;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#btn-1, #btn-2, #btn-3, #btn-4, #btn-5, #btn-6, #btn-7, #btn-8, #btn-9, #btn-0, #btn-punto {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+#btn-mas,
+#btn-menos,
+#btn-mul,
+#btn-div {
+    background-color: #ff9800;
+    color: #ffffff;
+}
+
+#btn-ig {
+    background-color: #f44336;
+    color: #ffffff;
+}
